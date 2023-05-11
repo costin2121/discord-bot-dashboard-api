@@ -1,0 +1,33 @@
+{
+  "name": "bot-dashboard",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/express": "^4.17.17",
+    "@types/passport": "^1.0.12",
+    "@types/passport-discord": "^0.1.6",
+    "dotenv": "^16.0.3",
+    "nodemon": "^2.0.22",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "@types/cors": "^2.8.13",
+    "@types/express-session": "^1.17.7",
+    "axios": "^1.4.0",
+    "connect-mongo": "^5.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "mongoose": "^7.1.0",
+    "passport": "^0.6.0",
+    "passport-discord": "^0.1.4"
+  },
+  "scripts": {
+    "start": "node ./dist/index.js",
+    "dev": "nodemon ./src/index.ts",
+    "build": "tsc"
+  }
+}
